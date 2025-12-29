@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anjula Vallur — GenAI & MLOps Resume</title>
+  <meta name="description" content="Resume of Anjula Vallur — Lead Data Scientist / Generative AI Engineer" />
+  <style>
+    :root{
+      --text:#111;
+      --muted:#555;
+      --line:#e6e6e6;
+      --bg:#fff;
+      --chip:#f6f6f6;
+      --link:#0b57d0;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.45;
+    }
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .page{
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+    header{
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+    }
+    h1{
+      font-size: 34px;
+      line-height:1.1;
+      margin: 0 0 10px;
+      letter-spacing: -0.02em;
+    }
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 18px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .meta span{white-space:nowrap}
+    section{margin-top:22px}
+    h2{
+      font-size:16px;
+      margin: 0 0 10px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color:#222;
+    }
+    .card{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px 16px;
+      background:#fff;
+    }
+    .summary{font-size:15px; color:#222}
+    .row{
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+    .role{
+      font-weight:700;
+      font-size:15px;
+      margin:0;
+    }
+    .org{
+      font-weight:600;
+      color:#222;
+    }
+    .where, .when{
+      color:var(--muted);
+      font-size:13px;
+      margin:2px 0 0;
+    }
+    ul{
+      margin:10px 0 0 18px;
+      padding:0;
+    }
+    li{margin:6px 0; color:#222}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:10px;
+    }
+    .chip{
+      background:var(--chip);
+      border:1px solid var(--line);
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:13px;
+      color:#222;
+    }
+    .kv{
+      margin-top:8px;
+      color:#222;
+      font-size:14px;
+    }
+    .kv strong{color:#111}
+    .muted{color:var(--muted)}
+    .two-col{
+      display:grid;
+      grid-template-columns: 1.4fr .9fr;
+      gap:16px;
+      align-items:start;
+    }
+    .spacer{height:8px}
+
+    @media (max-width: 820px){
+      .grid, .two-col{grid-template-columns:1fr}
+      h1{font-size:30px}
+    }
+
+    @media print{
+      body{background:#fff}
+      .page{margin:0; max-width:none}
+      a{color:#000; text-decoration:none}
+      .card{border:1px solid #ddd}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Anjula Vallur</h1>
+      <div class="meta">
+        <span>Dallas–Fort Worth, TX</span>
+        <span><a href="tel:+17792467080">+1 (779) 246-7080</a></span>
+        <span><a href="mailto:anjula.kbs41@gmail.com">anjula.kbs41@gmail.com</a></span>
+        <span>
+          <a href="https://www.linkedin.com/in/anjulav" target="_blank" rel="noopener">
+            linkedin.com/in/anjulav
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <!-- SUMMARY -->
+    <section>
+      <h2>Professional Summary</h2>
+      <div class="card summary">
+        Lead Data Scientist / Generative AI Engineer with 10+ years of experience architecting and
+        operationalizing scalable AI/ML systems across financial services, healthcare, and supply chain.
+        Specializes in deep learning and NLP using Hugging Face Transformers, BERT/RoBERTa, LangChain,
+        and Retrieval-Augmented Generation (RAG), with strong expertise in MLOps, multi-cloud model
+        deployment, and explainable AI for regulated environments. Proven track record building
+        production-grade fraud detection, clinical NLP, and forecasting pipelines using Python, TensorFlow,
+        PyTorch, MLflow, Vertex AI, and Azure ML with robust governance, monitoring, and CI/CD.
+      </div>
+    </section>
+
+    <section class="two-col">
+      <!-- EXPERIENCE LEFT COLUMN -->
+      <div>
+        <h2>Professional Experience</h2>
+
+        <!-- Galderma -->
+        <div class="card">
+          <div class="row">
+            <div>
+              <p class="role">Generative AI Engineer</p>
+              <div class="where"><span class="org">Galderma</span> — New York, NY</div>
+            </div>
+            <div class="when">Sept 2023 – Present</div>
+          </div>
+          <ul>
+            <li>Architected scalable ML pipelines using Vertex AI Pipelines and Experiments, managing retraining, evaluation, and deployment for GenAI and fraud models in production.</li>
+            <li>Engineered Transformer-based NLP solutions with Hugging Face, BERT, and RoBERTa for real-time document classification and entity extraction supporting KYC and compliance operations.</li>
+            <li>Integrated LangChain and RAG pipelines to automatically parse and summarize investment reports and customer communications with grounded, citation-rich responses.</li>
+            <li>Centralized feature management in Feast Feature Store with BigQuery, enabling versioned, low-latency feature retrieval for synchronous and batch inference workloads.</li>
+            <li>Standardized experimentation and model lineage using MLflow, embedding metrics and artifacts across both structured ML and unstructured NLP use cases.</li>
+            <li>Operationalized explainability with SHAP and LIME and exposed interpretations through internal compliance portals for model transparency and audit readiness.</li>
+            <li>Deployed containerized inference services using FastAPI and Docker on GKE, enforcing IAM-based access controls, Cloud Audit Logs, and end-to-end monitoring in Cloud Monitoring.</li>
+          </ul>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- Northern Trust -->
+        <div class="card">
+          <div class="row">
+            <div>
+              <p class="role">Senior Data Scientist</p>
+              <div class="where"><span class="org">Northern Trust Bank</span> — Chicago, IL</div>
+            </div>
+            <div class="when">Mar 2021 – Aug 2023</div>
+          </div>
+          <ul>
+            <li>Designed risk prediction pipelines using scikit-learn, XGBoost, and LightGBM to score clinical and operational risk profiles, improving early risk identification.</li>
+            <li>Built scalable data preprocessing with PySpark and Azure Synapse, transforming multi-source EHR and operational datasets into structured feature stores.</li>
+            <li>Developed BERT-based clinical NLP models for entity extraction from physician notes and deployed them as containerized APIs for real-time inference.</li>
+            <li>Automated training, evaluation, and deployment using Azure ML Pipelines and MLflow, establishing standardized MLOps practices across business units.</li>
+            <li>Integrated SHAP and LIME explanations into REST APIs and dashboards, enabling clinicians and risk officers to view key drivers behind model decisions.</li>
+            <li>Managed data ingestion and ETL via Azure Data Lake Gen2, Data Factory, and Airflow with Azure RBAC to secure PHI and sensitive risk data.</li>
+          </ul>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- Jost Chemical -->
+        <div class="card">
+          <div class="row">
+            <div>
+              <p class="role">Senior Data Scientist</p>
+              <div class="where"><span class="org">Jost Chemical Company</span> — St. Louis, MO</div>
+            </div>
+            <div class="when">Nov 2019 – Feb 2021</div>
+          </div>
+          <ul>
+            <li>Architected multilingual NLP pipelines using Transformers, PyTorch, and TensorFlow 2.x to process unstructured support conversations and technical documents.</li>
+            <li>Built ingestion and feature workflows with Azure Data Lake, Spark MLlib, and SQL to support large-scale training data preparation in Azure ML.</li>
+            <li>Fine-tuned LLMs with Hugging Face Transformers for document classification and summarization, automating tickets and knowledge base updates.</li>
+            <li>Deployed FastAPI-based NLP microservices on AKS with Docker, supporting low-latency, high-throughput inference for support operations.</li>
+            <li>Integrated SHAP and LIME to provide interpretable outputs directly in production APIs and operational dashboards.</li>
+          </ul>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- Lowe's -->
+        <div class="card">
+          <div class="row">
+            <div>
+              <p class="role">Data Scientist</p>
+              <div class="where"><span class="org">Lowe’s</span> — Mooresville, NC</div>
+            </div>
+            <div class="when">Feb 2017 – Jun 2019</div>
+          </div>
+          <ul>
+            <li>Developed demand forecasting models with scikit-learn, XGBoost, and statsmodels to optimize inventory and supply chain decisions.</li>
+            <li>Processed large-scale transactional data using PySpark on AWS EMR and persisted features in S3 for downstream ML workflows.</li>
+            <li>Automated ETL and batch scoring workflows with SQL and PySpark, enabling daily forecast generation at scale.</li>
+            <li>Deployed Flask-based inference APIs on AWS Lambda, enabling real-time access to predictions for logistics systems.</li>
+          </ul>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- Experis -->
+        <div class="card">
+          <div class="row">
+            <div>
+              <p class="role">Data Analyst / Data Modeller</p>
+              <div class="where"><span class="org">Experis IT Pvt Ltd</span> — Pune, India</div>
+            </div>
+            <div class="when">May 2015 – Jan 2017</div>
+          </div>
+          <ul>
+            <li>Automated KPI and SLA reporting using MySQL and MS SQL Server, optimizing queries for daily operational analytics.</li>
+            <li>Designed self-service dashboards in Power BI and Tableau, improving management visibility into process metrics.</li>
+            <li>Built ETL workflows with SQL stored procedures and Excel VBA, standardizing data preparation for reporting teams.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SKILLS / TECH STACK RIGHT COLUMN -->
+      <div>
+        <h2>Technical Skills</h2>
+        <div class="card">
+          <div class="kv"><strong>ML &amp; Deep Learning:</strong> Python, scikit-learn, XGBoost, LightGBM, TensorFlow 2.x, PyTorch, statsmodels, Spark MLlib, Transfer Learning</div>
+          <div class="kv"><strong>NLP &amp; GenAI:</strong> Hugging Face Transformers, BERT, RoBERTa, LangChain, RAG, NER, sentiment analysis, summarization, token classification</div>
+          <div class="kv"><strong>MLOps &amp; Pipelines:</strong> Vertex AI Pipelines/Experiments/Training, Azure ML Pipelines &amp; Endpoints, MLflow, Feast Feature Store, Airflow, GKE, AKS, Docker, Kubernetes, Git</div>
+          <div class="kv"><strong>Cloud &amp; Data Platforms:</strong> GCP (Vertex AI, GCS, BigQuery, Cloud Monitoring), Azure (AML, Synapse, Data Lake Gen2, App Insights), AWS (S3, EMR, Lambda)</div>
+          <div class="kv"><strong>Data &amp; SQL:</strong> BigQuery SQL, Azure Synapse SQL, MS SQL Server, MySQL, Oracle SQL, PySpark, SSIS, SSRS, stored procedures</div>
+          <div class="kv"><strong>Explainability &amp; Monitoring:</strong> SHAP, LIME, Cloud Monitoring, MLflow Tracking, drift detection, model versioning, audit logging</div>
+          <div class="kv"><strong>APIs &amp; Microservices:</strong> FastAPI, Flask, Dockerized REST APIs, AKS, GKE, AWS Lambda</div>
+          <div class="kv"><strong>Visualization &amp; Reporting:</strong> Power BI, Tableau, matplotlib, seaborn, Jupyter, Excel VBA</div>
+          <div class="kv"><strong>Security &amp; Governance:</strong> IAM (GCP), Azure RBAC, Cloud Audit Logs, schema-level data security, Git-based access control</div>
+
+          <div class="skills" aria-label="Skill chips">
+            <span class="chip">Python</span>
+            <span class="chip">TensorFlow 2.x</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">Hugging Face</span>
+            <span class="chip">LangChain</span>
+            <span class="chip">RAG</span>
+            <span class="chip">Vertex AI</span>
+            <span class="chip">Azure ML</span>
+            <span class="chip">BigQuery</span>
+            <span class="chip">Synapse</span>
+            <span class="chip">MLflow</span>
+            <span class="chip">Feast</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Tableau</span>
+          </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <h2>Key Strengths</h2>
+        <div class="card">
+          <ul>
+            <li>End-to-end ownership of ML systems from data engineering and modeling to deployment, monitoring, and retraining.</li>
+            <li>Experienced in multi-cloud AI architectures and building compliant, auditable pipelines for regulated domains.</li>
+            <li>Strong communicator who can translate complex model behavior into clear business and compliance language.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
